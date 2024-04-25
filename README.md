@@ -48,12 +48,12 @@ identities. Notably, our soft label can accurately indicate the ground-truth lab
 without being influenced by the erroneous label. Images are from Market1501 dataset.
 
 
-## 2.The lists of important, mislabeled, and outlier samples
+### 2.The lists of important, mislabeled, and outlier samples
 All lists are saved in `./xxx`.
 There are three folders, each corresponding to a ReID dataset, i.e., Marker1501, MSMT17 and VeRi.
 Below is a description of each folder:
 
-### Folder `Market1501`/`MSMT17`/`VeRi`
+#### Folder `Market1501`/`MSMT17`/`VeRi`
 - **Contents:**
   - `fpath_list.npy`: This npy file containing the file name of each sample and it can be used to map file name to index
   - `Ranking_list`: This npy file containing the file names of samples sorted by our importance scores (from the most difficult to the simplest).
@@ -62,3 +62,21 @@ Below is a description of each folder:
     contains the predicted person ID for each sample based on our generated soft labels.
     The first column represents the index of each sample, and the second column represents the predicted person ID.
     - The second numpy array is 1-dimensional and contains the indices of outlier samples.
+
+### 3.Results on ReID datasets
+![result1](https://raw.githubusercontent.com/Zi-Y/data-pruning-reid/main/figures/result1.jpg)
+* **Figure 4**: Data pruning on ReID datasets. We report the mean of Rank1 and mAP on 3
+ReID datasets (labeled at the top), obtained by training on the pruned datasets. For each method, we carry
+out four independent runs with different random seeds and report the mean.
+
+![result2](https://raw.githubusercontent.com/Zi-Y/data-pruning-reid/main/figures/result2.jpg)
+* **Figure 5**: Data pruning with data purification. Accuracy is achieved by training on the pruned dataset
+(pruning ratios on X-axis). We report the mean values from four independent runs with different seeds.
+
+
+
+### 4. Reference
+If you find our work useful for your research, please cite our paper as follows:
+```
+xxx
+```
