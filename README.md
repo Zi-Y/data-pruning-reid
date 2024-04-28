@@ -56,8 +56,8 @@ Below is a description of each folder:
 
 #### Folder `Market1501`/`MSMT17`/`VeRi`
 - **Contents:**
-  - `fpath_list.npy`: This npy file containing the file name of each sample and it can be used to map file name to index
-  - `Ranking_list`: This npy file containing the file names of samples sorted by our importance scores (from the most difficult to the simplest).
+  - `fpath_list.npy`: This npy file contains the file name of each sample and it can be used to map file name to index
+  - `Ranking_list`: This npy file contains the file names of samples sorted by our importance scores (from the most difficult to the simplest).
   - `Mislabeled_outlier_samples.pickle`: This pickle file is a dictionary containing two numpy arrays:
     - The first numpy array is 2-dimensional and
     contains the predicted person ID for each sample based on our generated soft labels.
