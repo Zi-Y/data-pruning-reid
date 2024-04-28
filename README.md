@@ -49,7 +49,7 @@ without being influenced by the erroneous label. Images are from Market1501 data
 
 
 ### 2.The lists of important, mislabeled, and outlier samples
-All lists are saved in `./xxx`.
+All lists are saved in `./ReID_sample_lists`. *will be available soon. *
 There are three folders, each corresponding to a ReID dataset, i.e., Marker1501, MSMT17 and VeRi.
 Below is a description of each folder:
 
