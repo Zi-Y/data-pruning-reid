@@ -1,7 +1,7 @@
 # A Comprehensive Data Pruning Approach for Object Re-identification
 This is the repository for TMLR paper [Data Pruning Can Do More: A Comprehensive Data Pruning Approach for Object Re-identification](https://openreview.net/pdf?id=vxxi7xzzn7)
 
-### 1.Introduction
+### 1. Introduction
 ReID datasets generally present two issues: 
 <ol>
   <li>Less informative samples</li>
@@ -20,7 +20,7 @@ the logit trajectory during training.
 ![pipline](https://raw.githubusercontent.com/Zi-Y/data-pruning-reid/main/figures/pipline.jpg)
 * **Figure 1**: The workflow of data pruning. Our data pruning approach not only identifies 
 ___less important___ samples, but also rectifies ___mislabeled___ samples and 
-removes ___outliers___ (boxes highlighted in grey). Figure (c) demonstrates 
+removes ___outliers___ (boxes highlighted in turquoise). Figure (c) demonstrates 
 an example of our method, where all images are from the same person (id 630, MSMT17 dataset). 
 Our approach serves as a _pre-processing_ step, reducing the dataset size to save storage 
 and training costs of ReID models while having minimal impact on their accuracy.
