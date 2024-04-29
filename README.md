@@ -75,9 +75,10 @@ out four independent runs with different random seeds and report the mean.
 (pruning ratios on X-axis). We report the mean values from four independent runs with different seeds.
 
 
-
+<!-- 
 ### 4. Reference
 If you find our work useful for your research, please cite our paper as follows:
 ```
 xxx
 ```
+-->
