@@ -75,10 +75,18 @@ out four independent runs with different random seeds and report the mean.
 (pruning ratios on X-axis). We report the mean values from four independent runs with different seeds.
 
 
-<!-- 
+
 ### 4. Reference
 If you find our work useful for your research, please cite our paper as follows:
 ```
-xxx
+@article{
+title={Data Pruning Can Do More: A Comprehensive Data Pruning Approach for Object Re-identification},
+author={Zi Yang and Haojin Yang and Soumajit Majumder and Jorge Cardoso and Guillermo Gallego},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2024},
+url={https://openreview.net/forum?id=vxxi7xzzn7},
+note={}
+}
 ```
--->
+
