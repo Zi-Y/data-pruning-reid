@@ -80,6 +80,7 @@ out four independent runs with different random seeds and report the mean.
 If you find our work useful for your research, please cite our paper as follows:
 ```
 @article{
+yang2024data,
 title={Data Pruning Can Do More: A Comprehensive Data Pruning Approach for Object Re-identification},
 author={Zi Yang and Haojin Yang and Soumajit Majumder and Jorge Cardoso and Guillermo Gallego},
 journal={Transactions on Machine Learning Research},
